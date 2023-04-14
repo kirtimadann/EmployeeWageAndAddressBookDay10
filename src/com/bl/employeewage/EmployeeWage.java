@@ -1,14 +1,14 @@
 package com.bl.employeewage;
 
 public class EmployeeWage {
-
     public static final int IS_FULL_TIME = 2;
     public static final int IS_PART_TIME = 1;
     public static final int EMP_RATE_PER_HOUR = 20;
     public static final int EMP_WORKING_DAY = 20;
     public static final int EMP_WORKING_HRS= 100;
 
-    public static void main(String[] args) {
+
+    public void empWageMethod(){
 
         int empHrs = 0;
         int totalEmpHrs = 0;
@@ -46,6 +46,16 @@ public class EmployeeWage {
         System.out.println(empwage);
 
     }
+
+    public static void main(String[] args) {
+
+        EmployeeWage obj = new EmployeeWage();
+        obj.empWageMethod();
+
+
+
+    }
+
 }
 
 
